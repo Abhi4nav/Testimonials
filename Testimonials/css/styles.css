@@ -1,0 +1,91 @@
+body {
+    background-color: hsl(0, 0%, 81%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.wrapper {
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: hsl(210, 46%, 95%);
+    padding: 60px;
+}
+.box-wrapper {
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px grey;
+}
+.clearfix {
+    clear: both;
+    content: "";
+    display: table;
+}
+.profil-pic {
+    border-radius: 28px;
+    border: 1px white solid;
+    float: left;
+}
+.profile-name {
+    font-size: 16px;
+    float: left;
+    padding: 10px 12px;
+}
+.profile-level {
+    font-size: 14px;
+    opacity: 50%;
+}
+.box1 {
+    width: 605px;
+    height: 360px;
+    background-color: hsl(263, 55%, 52%);
+    color: whitesmoke;
+    float: left;
+    margin-bottom: 20px;
+}
+.text-area {
+    padding-top: 30px;
+    line-height: 150%;
+}
+.header-text {
+    font-size: 18px;
+}
+.body-text {
+    opacity: 70%;
+    font-size: 13px;
+}
+.box2 {
+    width: 275px;
+    height: 360px;
+    background-color: hsl(217, 19%, 35%);
+    color: whitesmoke; 
+    float: left; 
+    margin-left: 20px; 
+}
+.box3 {
+    width: 270px;
+    height: 750px;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    float: right; 
+    margin-left: 20px;
+    position: relative;
+    bottom: 380px;
+}
+
+.box4 {
+    width: 280px;
+    height: 370px;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+    float: left;
+}
+.box5 {
+    width: 600px;
+    height: 370px;
+    background-color: hsl(219, 29%, 14%);
+    color: whitesmoke;
+    float: left;
+    margin-left: 20px;
+}
